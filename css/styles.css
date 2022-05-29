@@ -57,24 +57,14 @@ body {
 
   color: var(--second-main-color);
 
-  margin: 25px 93px 25px 215px;
+  margin-right: 93px;
 }
 
 .logo span {
   color: var(--accent-color);
 }
 
-.header-nav-list {
-  display: flex;
-  align-items: center;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
-.nav-container {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -83,11 +73,19 @@ body {
   margin-right: 50px;
 }
 
-.header-list-container {
+.header-nav-list {
   display: flex;
-  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  height: 80px;
+}
+
+.header-list {
+  display: flex;
   margin-left: auto;
-  margin-right: 215px;
+  align-items: center;
 }
 
 .nav-link {
@@ -158,8 +156,10 @@ body {
   color: var(--main-color);
 
   padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
 
-  border: 700px 120px;
+  margin-bottom: 30px;
 }
 
 .main-button {
@@ -238,6 +238,11 @@ body {
   color: #757575;
 }
 
+.merits-item {
+  width: 270px;
+  height: 101px;
+}
+
 .whatwedo {
   margin-top: 94px;
 }
@@ -249,6 +254,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-main-color);
+  margin-bottom: 50px;
 }
 
 .whatwedo-list {
@@ -284,6 +290,13 @@ body {
 
 .ourteam-item {
   margin-right: 30px;
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .ourteam-list-name {
@@ -294,6 +307,9 @@ body {
   letter-spacing: 0.03em;
 
   color: #212121;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .ourteam-list-position {
