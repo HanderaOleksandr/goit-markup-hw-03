@@ -226,6 +226,8 @@ body {
   text-transform: uppercase;
 
   color: #212121;
+
+  margin-bottom: 10px;
 }
 
 .merits-text {
@@ -240,6 +242,10 @@ body {
 .merits-item {
   width: 270px;
   height: 101px;
+}
+
+.merits-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .whatwedo {
@@ -325,6 +331,7 @@ body {
 
 .footer {
   background: #2f303a;
+  height: 252px;
 }
 
 .footer-link {
@@ -338,12 +345,15 @@ body {
 }
 
 .logo-footer {
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
   color: var(--main-color);
+  margin-bottom: 20px;
+  padding-top: 60px;
 }
 
 .logo-footer span {
@@ -372,6 +382,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.address-item {
+  margin-bottom: 9px;
+}
+
 /* ----------------------PORTFOLIO------------------------ */
 
 /* ---------------filter----------------- */
@@ -379,6 +393,7 @@ body {
 .filter-list {
   display: flex;
   margin-top: 94px;
+  justify-content: center;
 }
 
 .filter-button {
