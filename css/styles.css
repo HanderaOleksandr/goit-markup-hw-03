@@ -37,6 +37,11 @@ body {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
   list-style: none;
 }
@@ -68,6 +73,12 @@ body {
   align-items: center;
 }
 
+.nav-list-item {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  display: block;
+}
+
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -78,7 +89,6 @@ body {
 
 .header-container {
   display: flex;
-  height: 80px;
 }
 
 .header-list {
@@ -142,6 +152,7 @@ body {
 .order-service {
   background-color: var(--background-color-color);
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .text-h1 {
@@ -154,9 +165,8 @@ body {
 
   color: var(--main-color);
 
-  padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
+  min-width: 650px;
+  margin: 0 auto;
 
   margin-bottom: 30px;
 }
@@ -202,7 +212,7 @@ body {
 
   color: var(--main-color);
 
-  background: var(--accent-color);
+  background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -211,7 +221,6 @@ body {
 
 .merits-list {
   display: flex;
-  margin-top: 94px;
 }
 
 .merits-list:not(:last-child) {
