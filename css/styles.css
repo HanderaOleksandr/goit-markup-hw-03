@@ -174,7 +174,7 @@ body {
 
   color: var(--main-color);
 
-  min-width: 650px;
+  max-width: 650px;
   margin: 0 auto;
 
   margin-bottom: 30px;
@@ -196,6 +196,7 @@ body {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
   cursor: pointer;
 
@@ -274,6 +275,7 @@ body {
 
 .whatwedo {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .whatwedo-title {
@@ -528,12 +530,14 @@ body {
 }
 
 .ourprojects-item {
+  width: 370px;
+  height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
 
 .ourprojects-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 20px;
   margin-bottom: 30px;
 }
 
